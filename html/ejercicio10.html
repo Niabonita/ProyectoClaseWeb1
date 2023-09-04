@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario</title>
+</head>
+<body>
+    <h1>Ejemplo Formulario Números</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" pattern="[0-9] {1,12}"> <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente">
+
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+
+</form>
+
+
+<h1>Ejemplo 2 Formulario Número de Teléfono</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" pattern="\+\d\d-\d\d\d_\d\d\d {1,12}"> <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente">
+
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+
+</form>
+
+<h1>Ejemplo 3 Formulario Letras Mayúsculas</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" pattern="[A-Z] {1,12}"> <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente">
+
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+
+</form>
+
+<h1>Ejemplo 3 Formulario Fecha de nacimiento</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" pattern="\d{3}-\d{2}-\d{2}"> <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente">
+
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+
+</form>
+<h1>Ejemplo 3 Formulario Texto Específico</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+    <input type="text" size="10" pattern="[Mr|Ms]\w"> <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente">
+
+    </fieldset>
+    <input type="submit" value="Enviar datos">
+
+    <h1>Ejemplo 3 Formulario con observaciones</h1>
+
+<form action="">
+    <fieldset>
+
+        <legend>EPS</legend>
+
+        Cédula: <br>
+        <input type="text" size="10" pattern="\d{3}-\d{2}-\d{2}"> <br>
+
+        Nombre paciente: <br>
+        <input type="text" placeholder="Digite nombre de paciente"><br>
+        Observaciones: <br>
+        <textarea cols="30" rows="2"></textarea><br>
+    </fieldset>
+    <input type="submit" value="Enviar datos"><br>
+</form>
+
+</form>
+</body>
+</html>
