@@ -1,0 +1,47 @@
+body{
+    background-color: beige;
+}
+h1{
+
+    text-align: center;
+}
+nav>a{
+    font-size: 14px;
+    margin-right: 30px;
+    color: black;
+}
+.fondoImagen{
+    width: 100%;
+
+}
+figure{
+    margin: 0;
+}
+.flexContainer{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+}
+.flexContainerDos{
+    display: flex;
+}
+.flexContainerTres{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.divIzquierdo{
+    width: 60%;
+    background-color: #efcd23 ;
+}
+.divDerecho{
+    width:30%;
+    background-color: palevioletred;
+}
+
+div > div > img{
+
+    width: 100px;
+    height: 100px;
+}
+
