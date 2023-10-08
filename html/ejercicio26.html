@@ -1,0 +1,20 @@
+<script>
+    //Escribe un prog que pida una frase y escriba cuantas veces aparece la latra a
+
+    
+    frase = prompt("Digite una frase")
+    letraPaBuscar = 'a' ;
+    conteo = 0;
+
+    for (let i = 0; i < frase.length; i++) {
+        if (frase.charAt(i) === letraPaBuscar ) {
+            conteo++;
+        }
+    }
+
+    console.log("La letra '" + letraPaBuscar + "' aparece " + conteo + " veces en la frase");    
+
+
+
+
+</script>

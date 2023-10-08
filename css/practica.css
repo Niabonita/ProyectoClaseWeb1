@@ -1,0 +1,19 @@
+.Divxd{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+.Divderecho{
+
+   background-color: brown; 
+   width: 50%;
+}
+h1{
+    color: beige;
+}
+
+.Divizquierdo{
+    background-color: blueviolet;
+    width: 50%;
+    height: 100%;
+}

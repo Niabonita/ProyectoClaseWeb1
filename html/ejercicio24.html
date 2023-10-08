@@ -1,0 +1,27 @@
+<script>
+    //leer 2 numeros desde una pagina web y determinar si son o no pares//
+
+    cantidadNumerosLeer = 2;
+    for (let i = 0; i < cantidadNumerosLeer; i++) {
+        
+        var numero = parseInt(prompt("Digite un numero"));
+
+        if (esNumeroPar(numero))
+
+            console.log("Es par");
+
+        else
+
+            console.log("Es impar");
+  
+    }
+    function esNumeroPar(numero) {
+        return numero % 2 == 0;
+    }
+
+   
+
+    
+      
+
+</script>

@@ -1,0 +1,74 @@
+div#myDiv{
+    width:100%;
+    height:300px;
+    background-image: url('https://placekitten.com/200/300');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    }
+    h1{
+        text-align: center;
+        padding-top: 3% ;
+    }
+    #p{
+        text-align: center;
+    }
+    #divTextoCentro{
+        text-align: center;
+    }
+    #divFlex1{
+        display: flex;
+        justify-content: center ;
+        background-color: red;
+        width: 100%;
+        height: 300px;
+        
+    }
+    #divH2{
+        text-align: center;
+        padding-top: 6%;
+    }
+    a{
+        text-align: center;
+        color: white;
+    }
+    #imgTam1{
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+    #imgTam2{
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    #imgTam3{
+        margin-left: 4cqmin;
+        margin-top: 10px;
+    }
+    #divHII{
+        text-align: center;
+        padding-top: 0%;
+    }
+    .divPequenos{
+
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        
+    }
+    
+    .divPeque1{
+    
+        background-color: gray;
+        width: 150px;
+        text-align: center;
+
+    }
+    
+    .divPeque2{
+    
+        background-color: red;
+        width: 150px;
+        text-align: center;
+    }
